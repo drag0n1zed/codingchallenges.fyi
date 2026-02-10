@@ -8,8 +8,8 @@ A collection of software (re-)written in Rust, following the roadmap from [codin
 
 | # | Challenge | Status |
 | :--- | :--- | :--- |
-| 01 | [ccwc (Word Count)](./ccwc) | 🚧 In Progress |
-| 02 | JSON Parser | 📅 Pending |
+| 01 | cc-wc | ✅ Done! |
+| 02 | JSON Parser | 🚧 In Progress |
 | 03 | Compression Tool | 📅 Pending |
 | 04 | cut Tool | 📅 Pending |
 | 05 | Load Balancer | 📅 Pending |
@@ -24,5 +24,5 @@ cargo run -p <challenge_name> -- [args]
 
 Example:
 ```bash
-cargo run -p ccwc -- -l test.txt
+cargo run -p cc-wc -- -lcm test.txt
 ```
